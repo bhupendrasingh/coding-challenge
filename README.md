@@ -15,7 +15,7 @@ info@jana.com
 ```
 A basic html parser is incable of scraping the content generated dynamically by executing the javascript therefore a browser emulation is required for rendering the internet domain and fetch the document content. The cached content then can be parsed using html parser with beautiful soup, that allows to navigate the document structure and extract the desires text. For this
 purpose currently the program uses the firefox webdriver, using selenium  to emulate the browser environment and perform
-the browser related tasks such as visitng url and fetching the document text. I am also looking into an implementation which uses headless webdriver such as PhantomJS,which still lacks some support and therefore a future version can use and implementation of the same.
+the browser related tasks such as visitng url and fetching the document text. I am also looking into an implementation which uses headless webdriver such as PhantomJS,which still lacks some support and therefore a future version can use an implementation of the same.
 
 The program is written in Python3 and requires the same to be installed on users machine for execution.
 
